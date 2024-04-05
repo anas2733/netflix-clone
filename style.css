@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+  font-family: "Martel Sans", sans-serif;
+}
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("assets/images/bg.jpg");
+  height: 95vh;
+  position: relative;
+}
+.main .box {
+  height: 95vh;
+  width: 100%;
+  background-color: black;
+  opacity: 0.54;
+  position: absolute;
+  top: 0%;
+}
+nav {
+  display: flex;
+  /* justify-content:space-around; */
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75vw;
+  margin: auto;
+  height: 62px;
+  position: relative;
+  padding-top: 20px;
+}
+nav img {
+  width: 150px;
+  color: red;
+  z-index: 10;
+  position: relative;
+}
+nav button {
+  z-index: 10;
+  position: relative;
+}
+.box {
+  color: white;
+}
+.l1 {
+  font-family: "Martel Sans", sans-serif;
+
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.l1 > :first-child {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+.l1 > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.l1 > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.seperation {
+  height: 8px;
+  background-color: rgb(42, 42, 42);
+}
+.inp {
+  padding: 18px 60px;
+}
+.btn {
+  padding: 3px, 10px;
+  font-weight: bold;
+  background-color: white;
+}
+.btn-red {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  padding: 16px 60px;
+  border-radius: 4px;
+  font-size: larger;
+  margin: 5px;
+}
+.btn-red-sm {
+  background-color: rgb(229, 9, 20);
+  color: white;
+  padding: 7px 20px;
+  border-radius: 7px;
+  margin: 5px;
+  cursor: pointer;
+}
+.inp {
+  margin: 4px;
+  font-size: larger;
+  padding: 16px;
+  padding-right: 80px;
+  border-radius: 7px;
+  background-color: rgb(23, 23, 23, 0.8);
+}
+.lang {
+  padding: 7px 30px;
+  border-radius: 7px;
+  color: white;
+  background-color: rgb(23, 23, 23, 0.8);
+  cursor: pointer;
+}
+.first {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  color: white;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.secimg {
+  position: relative;
+}
+.secimg video {
+  position: absolute;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  width: 88%;
+}
+.secimg img {
+  width: 35vw;
+  position: relative;
+  z-index: 10;
+}
+section.first > div {
+  display: flex;
+  flex-direction: column;
+}
+.first > div :first-child {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.first > div :nth-child(2) {
+  font-size: 24px;
+  font-weight: 500;
+}
+.third secimg img {
+  position: relative;
+}
+.third video {
+  min-height: auto;
+  top: 30px;
+  right: 21%;
+  left: auto;
+  width: 62%;
+  position: absolute;
+}
+.faq {
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+.faq h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 40px;
+}
+.faqbox:hover {
+  background-color: rgb(88, 86, 86);
+}
+.faqbox svg {
+  filter: invert();
+}
+.faqbox {
+  display: flex;
+  font-weight: 400;
+  font-size: 24px;
+  background-color: rgb(52, 51, 51);
+  padding: 30px;
+  max-width: 75vw;
+  margin: 10px auto;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.Ready {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 400;
+  height: 30px;
+  margin-top: 50px;
+}
+/* @media screen and (max-width:320px){
+  .membership{
+    padding-top: 53px;
+    flex-wrap: wrap;
+  }
+} */
+.membership {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.foot{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  
+}
+.footeritem{
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 50px
+}
+.foot a{
+  font-size: 14px;
+  gap: 23px;
+  color: white;
+  padding: 12px;
+}
+.lastbtn{
+  margin: auto;
+  padding: 20px;
+  font-size: larger;
+  border-radius: 20px;
+  
+}
